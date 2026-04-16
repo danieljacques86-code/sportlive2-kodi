@@ -1,0 +1,16 @@
+<addon id="plugin.video.sportlive"
+       name="SportLive"
+       version="1.0.0"
+       provider-name="Daniel">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon SportLive para Kodi</summary>
+        <description>Lista de canais ao vivo a partir do Dropbox.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
